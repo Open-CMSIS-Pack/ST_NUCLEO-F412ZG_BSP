@@ -27,12 +27,12 @@
 
 The table below lists the physical I/O mapping of this CMSIS-Driver VIO implementation.
 
-Virtual Resource  | Variable       | Physical Resource on NUCLEO-F412ZG         |
-:-----------------|:---------------|:-------------------------------------------|
-vioBUTTON0        | vioSignalIn.0  | PC13: Button USER                          |
-vioLED0           | vioSignalOut.0 | PB14: LD3 RED                              |
-vioLED1           | vioSignalOut.1 | PB0:  LD1 GREEN                            |
-vioLED2           | vioSignalOut.2 | PB7:  LD2 BLUE                             |
+| Virtual I/O   | Variable       | Board component      | Pin
+|:--------------|:---------------|:---------------------|:------
+| vioBUTTON0    | vioSignalIn.0  | USER button (B1)     | PC13
+| vioLED0       | vioSignalOut.0 | LED red     (LD3)    | PB14
+| vioLED1       | vioSignalOut.1 | LED green   (LD1)    | PB0
+| vioLED2       | vioSignalOut.2 | LED blue    (LD2)    | PB7
 */
 
 #include "cmsis_vio.h"
