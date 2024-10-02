@@ -6,7 +6,7 @@ The STM32 Nucleo-144 board provides an affordable and flexible way for users to 
 
 The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.
 
-# Getting started
+## Getting started
 
 - [User manual](https://www.st.com/resource/en/user_manual/um1974-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf)
 
