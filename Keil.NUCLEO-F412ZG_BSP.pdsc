@@ -17,7 +17,7 @@
       Prepared for new CMSIS-Toolbox CubeMX integration
       Board description for NUCLEO-F412ZG
       Blinky example (CMSIS Solution)
-      Drivers:
+      CMSIS-Drivers:
       - CMSIS-Driver VIO
     </release>
   </releases>
